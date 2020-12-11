@@ -1,6 +1,6 @@
 /*
  * For more details take a look at the 'Building Java & JVM projects' chapter in the Gradle
- * User Manual available at https://docs.gradle.org/6.7.1/samples/sample_building_kotlin_applications.html
+ * User Manual available at https://docs.gradle.org/6.7.1/userguide/building_java_projects.html
  */
 
 plugins {
@@ -28,8 +28,6 @@ dependencies {
 
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
-
-    // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 }
 
