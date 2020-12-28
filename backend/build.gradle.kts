@@ -22,8 +22,11 @@ dependencies {
 
     // This dependency is used by the application.
     implementation("com.google.guava:guava:29.0-jre")
+    // core dependency
+    implementation("javax.money","money-api","[1.1, 2.0)")
 
     // Use the Kotlin test library.
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+    testImplementation("org.junit.jupiter","junit-jupiter-api", "[5.7, 6.0)")
 }
